@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: darkcyan;
+}
+.header{
+    background-color: rgba(214, 61, 120, 0.719);
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+    height: 30px;
+    text-align: center;
+
+}
+.logo-part{
+    padding-left: 20px;
+}
+.logo-part a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: whitesmoke;
+}
+}
+.nav-links ul{
+    list-style: none;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding-right: 20px;
+    text-align: center;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+
+.intro-part-1{
+    margin-top: 5%;
+    width: 100%;
+    padding: 0 20px;
+    height: 350px;
+    display: block;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#name{
+    font-size: 40px;
+    font-weight: bold;
+}
+span{
+    color: darkred;
+    font-size: 20px;
+}    
+.half-width{
+    width:50%;
+    float: left;
+}
+.hire-btn a{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.hire-btn{
+    margin:0;
+    padding: 10px 20px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+.about-part{
+    margin-top: 8%;
+    width: 100%;
+    padding: 0 20px;
+    height: 350px;
+    display: block;
+}
+.half-width-2{
+    width:50%;
+    float: left;
+}
+.project-area{
+    width: 100%;
+    margin-top:10% ;
+    padding: 0 20px;
+    background-color: rgb(224, 64, 85);
+    overflow: hidden;
+    height: 400px;
+}
+.project-pic{
+    width: 100%;
+    padding:0 5%;
+    display: flex;
+}
+.project-pic img{
+    width: 300px;
+}
+.inquiry-area{
+    width: 100%;
+    margin-top:5%;
+    padding:0% 10%;
+    background: url(Shape/Group_33094_1.png);
+    height:200px;
+    background-size:cover;
+    display: flex;
+}
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: whitesmoke;
+}
+button{
+    margin:0;
+    padding: 10px 20px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
